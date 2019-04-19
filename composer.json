@@ -1,0 +1,28 @@
+{
+    "name": "dziura/panda-group-ex1",
+    "description": "Recruitment task for Panda Group",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Miłosz Dziurzyński",
+            "email": "milosz.dziurzynski@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "^2.0",
+        "zendframework/zend-diactoros": "^2.1",
+        "middlewares/fast-route": "^1.2",
+        "middlewares/request-handler": "^1.4",
+        "narrowspark/http-emitter": "^0.8.0",
+        "nesbot/carbon": "^2.16",
+        "phpoffice/phpspreadsheet": "^1.6",
+      "ext-json": "*",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotesApp\\": "src/"
+        }
+    }
+}
