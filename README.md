@@ -1,5 +1,4 @@
-# PandaGroupRecruitmentTest
-Recruitment Test for Panda Group 
+# SimpleNote
 
 ## Description
 It is a simple application with user registration and functionality of notes.
